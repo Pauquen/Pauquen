@@ -3,7 +3,7 @@
   Identidad: "pipeline" — el perfil se lee como el estado de un sistema en:
   sistemas → datos → IA.
   ANTES DE PUBLICAR: revisa el TODO de proyectos reales.
-  Los niveles y barras de avance son ilustrativos: ajústalos a tu nivel real.
+  Los niveles son orientativos: ajústalos a tu experiencia real.
 -->
 
 <div align="center">
@@ -43,10 +43,27 @@ Mi trayectoria se dirige a comprender el ciclo completo del dato —desde su ori
 
 ## `> pipeline`
 
-```text
-[ ING. SISTEMAS ] ──ETL──▶ [ DATOS ] ──fit()──▶ [ INTELIGENCIA ARTIFICIAL ]
-   ███░░░ aprendiendo   ███░░░ aprendiendo      ███░░░ nivel básico
+```mermaid
+flowchart LR
+    S["Sistemas<br/>Linux · Git · Docker · SQL"]
+    D["Datos<br/>Python · pandas · PostgreSQL"]
+    A["IA aplicada · nivel básico<br/>Agentes · flujos .md"]
+    M["Modelos · en estudio<br/>scikit-learn · PyTorch · LLMs"]
+
+    S -->|ETL| D
+    D -->|en aprendizaje| A
+    A -.->|en estudio| M
+
+    classDef practica fill:#0D2818,stroke:#00D9A5,color:#E6EDF3,stroke-width:2px;
+    classDef aprendizaje fill:#1B1233,stroke:#7C3AED,color:#E6EDF3,stroke-width:2px;
+    classDef estudio fill:#161B22,stroke:#484F58,color:#8B949E,stroke-width:2px,stroke-dasharray:5 3;
+
+    class A practica;
+    class S,D aprendizaje;
+    class M estudio;
 ```
+
+🟢 **En práctica (nivel básico)** · 🟣 **En aprendizaje** · ⚪ **En estudio, sin experiencia práctica aún**
 
 La especialización se plantea como un proceso continuo: los fundamentos de sistemas aportan rigor, los datos aportan contexto y la inteligencia artificial aporta herramientas para el análisis y la predicción.
 
@@ -58,7 +75,8 @@ La especialización se plantea como un proceso continuo: los fundamentos de sist
 | :--- | :--- | :--- |
 | **Sistemas** | Linux · Git · Docker · SQL | aprendiendo |
 | **Datos** | Python · pandas · PostgreSQL · Power BI | aprendiendo |
-| **IA** | scikit-learn · PyTorch · LLMs | nivel básico |
+| **IA — práctica** | Agentes · flujos de trabajo en Markdown · asistentes de código | nivel básico |
+| **IA — en estudio** | scikit-learn · PyTorch · modelos de lenguaje | aprendiendo |
 
 <div align="center">
 
@@ -69,6 +87,8 @@ La especialización se plantea como un proceso continuo: los fundamentos de sist
 <img alt="pandas" src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white">
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white">
 <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge">
+<img alt="Agentes: nivel básico" src="https://img.shields.io/badge/Agentes-nivel%20b%C3%A1sico-00D9A5?style=for-the-badge">
+<img alt="Markdown" src="https://img.shields.io/badge/Markdown-083F46?style=for-the-badge&amp;logo=markdown&amp;logoColor=white">
 
 </div>
 
@@ -81,8 +101,8 @@ $ systemctl status Paulo
 ● Paulo — formación en datos e IA
    Active: en formación continua
 
-   ▶ en estudio:    SQL analítico y limpieza de datos con pandas
-   ▶ planificado:   modelos supervisados y evaluación de resultados
+   ▶ en estudio:    SQL analítico, limpieza de datos y modelos supervisados
+   ▶ en práctica:   agentes y flujos de trabajo documentados en Markdown
    ▶ objetivo:      integrar un pipeline de datos, modelo y decisión
 ```
 
