@@ -1,6 +1,5 @@
 <!--
   PAUQUEN // PROFILE README
-  Identity: "pipeline" — systems → data → AI.
   Before publishing: check the TODO for real project repositories.
   Levels are indicative: adjust them to your actual experience.
 -->
@@ -17,13 +16,13 @@
 
 <strong><code>systems</code> ──▶ <code>data</code> ──▶ <code>artificial intelligence</code></strong>
 
-<em>Systems Engineer focused on Data Analysis and Artificial Intelligence. Continuous learning through hands-on practice.</em>
+<em>Systems Engineering Student focused on Data Analysis and Artificial Intelligence.</em>
 
 <br>
 
 <a href="https://github.com/Pauquen"><img alt="status: learning" src="https://img.shields.io/badge/status-learning-00D9A5?style=for-the-badge&amp;logo=linux&amp;logoColor=black"></a>
 <a href="https://github.com/Pauquen"><img alt="focus: Data and AI" src="https://img.shields.io/badge/focus-Data%20%26%20AI-7C3AED?style=for-the-badge"></a>
-<a href="https://github.com/Pauquen"><img alt="level: basic" src="https://img.shields.io/badge/level-basic-1F6FEB?style=for-the-badge"></a>
+<a href="https://github.com/Pauquen"><img alt="role: student" src="https://img.shields.io/badge/role-student-1F6FEB?style=for-the-badge"></a>
 
 </div>
 
@@ -31,37 +30,21 @@
 
 ## About
 
-I'm **Paulo**, a systems engineer working toward a focus in data analysis and artificial intelligence.
+I'm **Paulo**, a Systems Engineering student focused on data analysis and artificial intelligence.
 
-My goal is to understand the full lifecycle of data — from where it comes from to how it supports decisions. I learn through practice, documentation and continuous review.
+I'm interested in the full lifecycle of data: where it comes from, how it is processed, and how it supports decisions. I learn through practice, documentation and continuous review.
 
 ---
 
-## Path
+## What I do
 
-```mermaid
-flowchart LR
-    S["Systems · learning<br/>Linux · Git · Docker · SQL"]
-    D["Data · learning<br/>Python · pandas · PostgreSQL"]
-    A["Applied AI · basic level<br/>Agents · .md workflows"]
-    M["Models · studying<br/>scikit-learn · PyTorch · LLMs"]
+- **Learn the foundations.** I study systems, databases and SQL, and apply them in coursework and small projects.
+- **Explore data.** I clean and analyze datasets with Python and pandas, then try to explain what the numbers actually say.
+- **Work with AI agents.** I build simple agent workflows and document them in Markdown files: prompts, structure and expected behavior.
+- **Study models.** I'm going through scikit-learn and PyTorch basics step by step. No production experience yet.
+- **Build end to end.** My current goal is a small pipeline that connects data, a model and a decision.
 
-    S -->|ETL| D
-    D -->|learning| A
-    A -.->|studying| M
-
-    classDef practice fill:#0D2818,stroke:#00D9A5,color:#E6EDF3,stroke-width:2px;
-    classDef learningStyle fill:#1B1233,stroke:#7C3AED,color:#E6EDF3,stroke-width:2px;
-    classDef study fill:#161B22,stroke:#484F58,color:#8B949E,stroke-width:2px,stroke-dasharray:5 3;
-
-    class A practice;
-    class S,D learningStyle;
-    class M study;
-```
-
-🟢 **Practicing (basic)** · 🟣 **Learning** · ⚪ **Studying, no hands-on experience yet**
-
-The transition is continuous: systems fundamentals provide rigor, data provides context, and AI provides tools for analysis and prediction.
+🟢 **Basic:** AI agents and Markdown workflows · 🟣 **Learning:** Python, SQL and data analysis · ⚪ **Studying:** machine learning models
 
 ---
 
@@ -72,7 +55,7 @@ The transition is continuous: systems fundamentals provide rigor, data provides 
 | **Systems** | Linux · Git · Docker · SQL | learning |
 | **Data** | Python · pandas · PostgreSQL · Power BI | learning |
 | **Applied AI** | Agents · Markdown workflows · coding assistants | basic |
-| **Models (in study)** | scikit-learn · PyTorch · language models | learning |
+| **Models (in study)** | scikit-learn · PyTorch · language models | studying |
 
 <div align="center">
 
@@ -86,14 +69,6 @@ The transition is continuous: systems fundamentals provide rigor, data provides 
 <img alt="Agents: basic level" src="https://img.shields.io/badge/Agents-basic%20level-00D9A5?style=for-the-badge">
 
 </div>
-
----
-
-## Currently
-
-- **Studying:** SQL analytics, data cleaning and supervised models
-- **Practicing:** agents and Markdown-based workflows
-- **Goal:** an end-to-end data → model → decision pipeline
 
 ---
 
