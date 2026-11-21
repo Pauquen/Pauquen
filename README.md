@@ -34,17 +34,17 @@ I'm **Paulo**, a Systems Engineering student focused on data analysis and artifi
 
 I'm interested in the full lifecycle of data: where it comes from, how it is processed, and how it supports decisions. I learn through practice, documentation and continuous review.
 
+**Path:** 🟣 Systems · learning → 🟣 Data · learning → 🟢 Applied AI · basic → ⚪ Models · studying
+
 ---
 
 ## What I do
 
 - **Learn the foundations.** I study systems, databases and SQL, and apply them in coursework and small projects.
-- **Explore data.** I clean and analyze datasets with Python and pandas, then try to explain what the numbers actually say.
+- **Learn to explore data.** This is my next step: cleaning and analyzing datasets with Python and pandas through guided practice. I'm not there yet.
 - **Work with AI agents.** I build simple agent workflows and document them in Markdown files: prompts, structure and expected behavior.
 - **Study models.** I'm going through scikit-learn and PyTorch basics step by step. No production experience yet.
 - **Build end to end.** My current goal is a small pipeline that connects data, a model and a decision.
-
-🟢 **Basic:** AI agents and Markdown workflows · 🟣 **Learning:** Python, SQL and data analysis · ⚪ **Studying:** machine learning models
 
 ---
 
